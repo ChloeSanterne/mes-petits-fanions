@@ -1,0 +1,41 @@
+<main>
+    <h1>Personnalisation</h1>
+
+    <p class="perso">Ici vous pouvez créer votre guirlande de fanions selon vos gouts et les tissus disponibles.
+    Les tissus sont actualisés selon le stock afin de vous garantir la faisabilité du fanion.
+    </p>
+    <p class="conseils"> Quelques informations supplémentaires :
+    </p>
+
+    <div class="simul">
+        <img class="tissus" src="../../assets/img/33.jpg">
+        <img class="tissus" src="../../assets/img/14.jpg">
+        <img class="tissus" src="../../assets/img/28.jpg">
+        <img class="tissus" src="../../assets/img/33.jpg">
+        <img class="tissus" src="../../assets/img/26.jpg">
+        <img class="tissus" src="../../assets/img/27.jpg">
+    </div>
+
+<app-fanion-edit></app-fanion-edit>
+
+
+    <div class="contain">
+        <div class="tissusList" *ngFor=" let tissus of tissusList">
+            {{tissus.id}}
+            {{tissus.name}}
+            <img class="echantillon" src={{tissus.src}} />
+
+
+        </div>
+
+    </div>
+
+</main>
+
+<!-- 
+<img class="fanion" src="../../assets/img/33.jpg">
+<img class="fanion" src="../../assets/img/14.jpg">
+<img class="fanion" src="../../assets/img/28.jpg">
+<img class="fanion" src="../../assets/img/33.jpg">
+<img class="fanion" src="../../assets/img/26.jpg">
+<img class="fanion" src="../../assets/img/27.jpg"> -->

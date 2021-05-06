@@ -1,0 +1,50 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* 
+.fanion{
+    height: 200px;
+    width: 180px;
+    -webkit-clip-path: polygon(0 0, 49% 100%, 100% 0);
+    clip-path: polygon(0 0, 49% 100%, 100% 0);
+    
+} */
+.simul{
+    border-top:blue solid 5px ;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    
+}
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.tissusList{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.echantillon{
+    width: 250px;
+    height: 250px;
+}
+.tissus{
+    height: 200px;
+    width: 200px;
+    -webkit-mask-image: url(src/assets/img/icon.svg);
+    mask-image: url(src/assets/img/icon.svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 120%;
+    mask-size: 120%;
+    -webkit-mask-position:top;
+    mask-position:top;
+}
+

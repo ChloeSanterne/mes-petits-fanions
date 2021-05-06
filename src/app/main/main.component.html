@@ -1,0 +1,18 @@
+<main>
+<h1>Le concept</h1>
+<article class="left">
+<p class="presentation firstPr"> {{ description }} </p>
+
+</article>
+<div class="contenu">
+<div class="CTaille">
+<carousel  [images]="images" [cellsToShow]="1" [height]="600" [autoplay]="true" [autoplayInterval]="5000">
+
+</carousel>
+</div></div>
+<article class="right">
+    <p class="presentation twoPr">{{description2}} <a routerLink="personalisation" class="nav">Personnalisez votre modèle!</a></p>
+
+</article>
+
+</main>

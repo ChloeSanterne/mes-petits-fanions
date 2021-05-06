@@ -1,0 +1,55 @@
+/* CSS HEX
+--queen-pink: #d6c3c9ff;
+--beaver: #b49082ff;
+--chestnut: #98473eff;
+--charcoal: #334e58ff;
+--light-blue: #a0d2dbff;
+/*
+/* CSS HSL 
+--queen-pink: hsla(341, 19%, 80%, 1);
+--beaver: hsla(17, 25%, 61%, 1);
+--chestnut: hsla(6, 42%, 42%, 1);
+--charcoal: hsla(196, 27%, 27%, 1);
+--light-blue: hsla(189, 45%, 74%, 1);
+
+SCSS HEX 
+$queen-pink: #d6c3c9ff;
+$beaver: #b49082ff;
+$chestnut: #98473eff;
+$charcoal: #334e58ff;
+$light-blue: #a0d2dbff;
+
+SCSS HSL 
+$queen-pink: hsla(341, 19%, 80%, 1);
+$beaver: hsla(17, 25%, 61%, 1);
+$chestnut: hsla(6, 42%, 42%, 1);
+$charcoal: hsla(196, 27%, 27%, 1);
+$light-blue: hsla(189, 45%, 74%, 1);
+
+SCSS RGB 
+$queen-pink: rgba(214, 195, 201, 1);
+$beaver: rgba(180, 144, 130, 1);
+$chestnut: rgba(152, 71, 62, 1);
+$charcoal: rgba(51, 78, 88, 1);
+$light-blue: rgba(160, 210, 219, 1);
+
+SCSS Gradient 
+$gradient-top: linear-gradient(0deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-right: linear-gradient(90deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-bottom: linear-gradient(180deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-left: linear-gradient(270deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-top-right: linear-gradient(45deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-bottom-right: linear-gradient(135deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-top-left: linear-gradient(225deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-bottom-left: linear-gradient(315deg, #d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+$gradient-radial: radial-gradient(#d6c3c9ff, #b49082ff, #98473eff, #334e58ff, #a0d2dbff);
+ */
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border : red solid;
+    padding: 0;
+}

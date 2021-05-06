@@ -1,0 +1,66 @@
+
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <label for ="biais">Choix de la couleur du biais</label>
+        <select name="biais" id="biais" [(ngModel)]="biais">
+            <option *ngFor="let biais of biaisList"  [ngValue]="biais.id" >
+                {{biais.id}} {{biais.name}} 
+            </option>
+        </select>
+        <label for="fanion1">Choix du 1er fanion </label>
+        <select name="tissus1" id="fanion1" [(ngModel)]="fanion1" >
+            <option *ngFor=" let tissus1 of tissusList" [ngValue]=tissus1.name >
+                {{tissus1.id}} {{tissus1.name}}
+            </option>
+        </select>
+        <label for="fanion2">Choix du 2eme fanion </label>
+        <select name="tissus2" id="fanion2" [(ngModel)]="fanion2" >
+            <option *ngFor=" let tissus2 of tissusList" [ngValue]=tissus2.id >
+                {{tissus2.id}} {{tissus2.name}}
+            </option>
+        </select>
+
+        <label for="fanion3">Choix du 3eme fanion </label>
+        <select name="tissus3" id="fanion3" [(ngModel)]="fanion3" >
+            <option *ngFor=" let tissus3 of tissusList" [ngValue]=tissus3.id  >
+                {{tissus3.id}} {{tissus3.name}}
+            </option>
+        </select>
+
+        <label for="fanion4">Choix du 4eme fanion </label>
+        <select name="tissus4" id="fanion4" [(ngModel)]="fanion4">
+            <option *ngFor=" let tissus4 of tissusList" [ngValue]=tissus4.id  >
+                {{tissus4.id}} {{tissus4.name}}
+            </option>
+        </select>
+
+        <label for="fanion5">Choix du 5eme fanion</label>
+        <select name="tissus5" id="fanion5" [(ngModel)]="fanion5" >
+            <option *ngFor=" let tissus5 of tissusList" [ngValue]=tissus5.id  >
+                {{tissus5.id}} {{tissus5.name}}
+            </option>
+        </select>
+
+        <label for="fanion6">Choix du 6eme fanion</label>
+        <select name="tissus6" id="fanion6" [(ngModel)]="fanion6" >
+            <option *ngFor=" let tissus6 of tissusList" [ngValue]=tissus6.id  >
+                {{tissus6.id}} {{tissus6.name}}
+            </option>
+        </select>
+        
+        <div class="prenom">
+        <div>
+            <label for="prenom"> Prénom à inscrire
+            </label>
+            <input type="text" placeholder="Prénom" [(ngModel)]="prenom" name="prenom">
+        </div>
+        <div>
+        <input type="checkbox" value="flex" [(ngModel)]="flex" name="flex">
+        <label for="flex">Flex</label>
+        </div>
+        <div>
+        <input type="checkbox" value="broder" id="broder" [(ngModel)]="brode" name="brode" >
+        <label for="broder">Découpe brodée avec appliqué</label>
+        </div>
+        </div>
+        <button class="btn" type="submit"> Visualiser </button>
+        </form>

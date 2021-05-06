@@ -1,0 +1,32 @@
+/* CSS HEX
+--queen-pink: #d6c3c9ff;
+--beaver: #b49082ff;
+--chestnut: #98473eff;
+--charcoal: #334e58ff;
+--light-blue: #a0d2dbff;
+*/
+
+
+.Inst{
+    height: 2rem;
+    margin: 0.5rem;
+    background-color: #a0d2dbff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+nav{
+    text-align :center;
+    background-image: url(src/assets/img/footer.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 25vh;
+    padding-top: 8rem;
+    font-family: 'Raleway', sans-serif;
+}
+.contact>a{
+    text-decoration: none;
+    color :#a0d2dbff;
+    margin: 2rem;
+
+}

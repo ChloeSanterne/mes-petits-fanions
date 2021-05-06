@@ -1,0 +1,67 @@
+/* CSS HEX
+--queen-pink: #d6c3c9ff;
+--beaver: #b49082ff;
+--chestnut: #98473eff;
+--charcoal: #334e58ff;
+--light-blue: #a0d2dbff;
+*/
+
+
+
+
+main{
+    background-color:rgb(252, 232, 224);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+article{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+.presentation{
+    border: #a0d2dbff solid;
+    background-color:#98473eff;
+    width: 100vw;
+    color:white ;
+    padding: 30px;
+    margin: 3rem;
+    text-align: center;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+}
+.CTaille{
+    width: 50vw;
+    height: max-content;
+    border:#a0d2dbff solid;
+    
+
+}
+.nav{
+    text-decoration: none;
+    color: blanchedalmond;
+    text-decoration-line: underline;
+}
